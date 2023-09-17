@@ -694,6 +694,18 @@ video {
   margin-top: 1.25rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -849,6 +861,11 @@ video {
   border-color: rgb(100 116 139 / var(--tw-border-opacity));
 }
 
+.border-slate-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(51 65 85 / var(--tw-border-opacity));
+}
+
 .bg-dark {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
@@ -960,10 +977,6 @@ video {
   padding-top: 2rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -980,11 +993,6 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-base {
@@ -1248,16 +1256,12 @@ body{
     width: 50%;
   }
 
+  .md\:w-2\/12 {
+    width: 16.666667%;
+  }
+
   .md\:w-2\/5 {
     width: 40%;
-  }
-
-  .md\:w-3\/12 {
-    width: 25%;
-  }
-
-  .md\:w-4\/12 {
-    width: 33.333333%;
   }
 
   .md\:w-4\/5 {
@@ -1272,16 +1276,13 @@ body{
     width: 300px;
   }
 
-  .md\:w-2\/12 {
-    width: 16.666667%;
-  }
-
-  .md\:pt-16 {
-    padding-top: 4rem;
-  }
-
   .md\:pt-20 {
     padding-top: 5rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .md\:text-sm {
@@ -1292,6 +1293,11 @@ body{
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -1410,11 +1416,6 @@ body{
     line-height: 2.25rem;
   }
 
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1423,6 +1424,16 @@ body{
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:shadow-none {
@@ -1448,5 +1459,10 @@ body{
   .xl\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
