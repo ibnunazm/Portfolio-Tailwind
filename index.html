@@ -142,8 +142,8 @@
             <h2
               class="font-semibold text-secondary text-lg mb-3 lg:text-xl"
             >
-              <span id="typing-text"></span>
-              <!-- Creative | Inovative -->
+              <span class="typing-text"></span>
+              <!-- Determined | Responsible | Meticulous -->
             </h2>
             <p
               class="font-medium text-slate-800 text-base lg:text-lg"
@@ -608,7 +608,7 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
       //typing text
-      var typed = new Typed("#typing-text", {
+      const typed = new Typed(".typing-text", {
         strings: ["Determined", "Responsible", "Meticulous"],
         typeSpeed: 200,
         loop: true,
